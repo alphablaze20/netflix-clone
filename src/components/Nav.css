@@ -3,7 +3,8 @@
   top: 0;
   width: 100%;
   padding: 20px;
-
+  margin: 0 auto;
+  max-width: 1600px;
   height: 30px;
   display: flex;
   justify-content: space-between;
@@ -21,13 +22,12 @@
   width: 80px;
   object-fit: contain;
   left: 20px;
-  position: fixed;
+  
 }
 
 .nav_avatar {
   width: 30px;
   object-fit: contain;
-  right: 20px;
-
-  position: fixed;
+  right: 10px;
+  margin-right: 50px;
 }
